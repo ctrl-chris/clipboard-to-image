@@ -1,0 +1,11 @@
+{
+    "manifest_version": 3,
+    "name": "Image Clipboard Saver",
+    "version": "1.0",
+    "description": "Paste images from clipboard and save them as files",
+    "permissions": ["clipboardRead", "activeTab"],
+    "action": {
+      "default_popup": "popup.html",
+      "default_title": "Paste and Save Image"
+    }
+  }

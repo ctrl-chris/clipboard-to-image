@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h3>Quick Image Save</h3>
+    <div class="paste-area" id="pasteArea" tabindex="0">
+      <div class="paste-icon">📋</div>
+      <p>Press <kbd>Ctrl+V</kbd> to save image</p>
+    </div>
+    <div class="controls">
+      <div class="format-selector">
+        <label>Format:</label>
+        <div class="format-buttons">
+          <button class="format-btn active" data-format="png">PNG</button>
+          <button class="format-btn" data-format="jpeg">JPEG</button>
+        </div>
+      </div>
+    </div>
+    <div id="status" class="status"></div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
